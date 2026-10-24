@@ -1,0 +1,7 @@
+name: genpark-agent-asynchronous-future-barrier-joiner-skill
+description: Barrier synchronization coordinator collecting concurrent agent futures, resolving join-all conditions, and merging branch results
+version: 1.0.1
+entrypoint: mcp_server.py
+command: python
+args:
+  - mcp_server.py
